@@ -54,6 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\WaypointFollower.cs" />
+    <Compile Include="Assets\Scripts\StickyPlatform.cs" />
+    <Compile Include="Assets\PLayerLife.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
