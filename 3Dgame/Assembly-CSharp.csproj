@@ -55,9 +55,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\WaypointFollower.cs" />
     <Compile Include="Assets\Scripts\StickyPlatform.cs" />
+    <Compile Include="Assets\Scripts\ItemCollector.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PLayerLife.cs" />
-    <Compile Include="Assets\Scripts\ItemCollector.cs" />
+    <Compile Include="Assets\StartButton.cs" />
+    <Compile Include="Assets\EndMenu.cs" />
+    <Compile Include="Assets\levleCompleted.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
