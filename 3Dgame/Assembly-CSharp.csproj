@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\StickyPlatform.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PLayerLife.cs" />
+    <Compile Include="Assets\Scripts\ItemCollector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

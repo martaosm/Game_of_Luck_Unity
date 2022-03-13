@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
+    private int points = 0;
 
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 7f;
@@ -28,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();    
         }
+
+        OnTriggerEnter(GetComponent<Collider>());
     }
 
     void Jump()
@@ -40,12 +43,23 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("EnemyHead"))
         {
             Destroy(collision.transform.parent.gameObject);
-            Jump(); 
+            Jump();
+            points++;
         }
     }
 
     bool IsGrounded()
     {
         return Physics.CheckSphere(groundChecker.position, .1f, ground); 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Point"))
+        {
+            Destroy(other.gameObject);
+            points++;
+            Debug.Log(points);
+        }
     }
 }
