@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000095367, y: -44}
+  m_AnchoredPosition: {x: 0.0000095367, y: 48}
   m_SizeDelta: {x: 184.2076, y: 52.9973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &59684846
@@ -574,7 +574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 34.495926}
+  m_AnchoredPosition: {x: 0, y: 132}
   m_SizeDelta: {x: 371.817, y: 43.3141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &924714034
@@ -610,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Capsule Game
+  m_Text: Game of Luck
 --- !u!222 &924714035
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -653,8 +653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -156.5566}
-  m_SizeDelta: {x: 755.5081, y: 151.0932}
+  m_AnchoredPosition: {x: 0.000011206, y: -126}
+  m_SizeDelta: {x: 759.8652, y: 212.0924}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1137448780
 MonoBehaviour:
@@ -683,25 +683,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rules:
-
-    - Red = Enemy
-
-    - Blue = Point
-
-    - Player can gain points
-    from jumping on top of the enemy
-
-    - Player''s objective is to get to the
-    end of the obstacle course
-
-    Good Luck :)'
+  m_Text: "Rules:\n- Red = Enemy\n- Blue = Point\n- Player can gain points from jumping
+    on top of the enemy\n- Player's goal is to get more than 4 points, after that
+    door will be unlocked that will lead player to two cylinders. Player have to
+    choose 1 of them to end the game, but  player's luck will decide if they win
+    or lose. \nGood Luck :)"
 --- !u!222 &1137448781
 CanvasRenderer:
   m_ObjectHideFlags: 0

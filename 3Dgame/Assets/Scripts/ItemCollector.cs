@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int points = 0;
-
-    // Update is called once per frame
+    public static int points = 0;
+    public Text pointsText;
+    
     void Update()
     {
         OnTriggerEnter(GetComponent<Collider>());
@@ -18,7 +19,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(other.gameObject);
             points++;
-            Debug.Log(points);
+            pointsText.text = "Points: " + points;
         }
     }
 }
