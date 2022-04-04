@@ -30,7 +30,7 @@ public class DoorController : MonoBehaviour
             {
                 if (ItemCollector.points > 4 )
                 {
-                    LeanTween.moveLocalY(gameObject, 5f, 1f).setEaseInQuad();
+                    LeanTween.moveLocalY(gameObject, 5f, 1f).setEaseOutQuad();
                 }
                 else
                 {

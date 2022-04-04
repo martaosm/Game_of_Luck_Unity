@@ -80,7 +80,6 @@
      <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
      <Compile Include="Assets\Scripts\GameEvents.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
-     <Compile Include="Assets\Scripts\levleCompleted.cs" />
      <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
      <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
